@@ -39,6 +39,7 @@
     {"id":{"name":"spr_burger","path":"sprites/spr_burger/spr_burger.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_breakable","path":"sprites/spr_breakable/spr_breakable.yy",},},
+    {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},},
     {"id":{"name":"Pikmin","path":"sprites/Pikmin/Pikmin.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"spr_fryer","path":"sprites/spr_fryer/spr_fryer.yy",},},

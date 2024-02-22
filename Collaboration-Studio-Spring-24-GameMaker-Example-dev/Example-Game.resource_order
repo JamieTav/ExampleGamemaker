@@ -21,6 +21,7 @@
     {"name":"spr_burger","order":6,"path":"sprites/spr_burger/spr_burger.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"spr_breakable","order":3,"path":"sprites/spr_breakable/spr_breakable.yy",},
+    {"name":"obj_player2","order":6,"path":"objects/obj_player2/obj_player2.yy",},
     {"name":"Pikmin","order":6,"path":"sprites/Pikmin/Pikmin.yy",},
     {"name":"spr_wall","order":2,"path":"sprites/spr_wall/spr_wall.yy",},
     {"name":"spr_fryer","order":5,"path":"sprites/spr_fryer/spr_fryer.yy",},
