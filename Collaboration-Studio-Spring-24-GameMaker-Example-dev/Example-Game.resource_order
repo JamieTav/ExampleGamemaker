@@ -17,6 +17,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_unset","order":4,"path":"sprites/spr_unset/spr_unset.yy",},
+    {"name":"spr_burger","order":6,"path":"sprites/spr_burger/spr_burger.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"spr_breakable","order":3,"path":"sprites/spr_breakable/spr_breakable.yy",},
     {"name":"Pikmin","order":6,"path":"sprites/Pikmin/Pikmin.yy",},

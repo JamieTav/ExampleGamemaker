@@ -35,6 +35,7 @@
   },
   "resources": [
     {"id":{"name":"spr_unset","path":"sprites/spr_unset/spr_unset.yy",},},
+    {"id":{"name":"spr_burger","path":"sprites/spr_burger/spr_burger.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_breakable","path":"sprites/spr_breakable/spr_breakable.yy",},},
     {"id":{"name":"Pikmin","path":"sprites/Pikmin/Pikmin.yy",},},
