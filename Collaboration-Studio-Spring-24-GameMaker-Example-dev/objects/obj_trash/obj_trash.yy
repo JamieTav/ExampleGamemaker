@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_enemy1",
+  "name": "obj_trash",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_enemyph",
-    "path": "sprites/spr_enemyph/spr_enemyph.yy",
+    "name": "spr_trash",
+    "path": "sprites/spr_trash/spr_trash.yy",
   },
   "spriteMaskId": null,
   "visible": true,
