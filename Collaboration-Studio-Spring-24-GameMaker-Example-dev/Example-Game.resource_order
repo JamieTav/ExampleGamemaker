@@ -26,6 +26,7 @@
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"obj_ingredient","order":3,"path":"objects/obj_ingredient/obj_ingredient.yy",},
     {"name":"obj_fryer","order":4,"path":"objects/obj_fryer/obj_fryer.yy",},
+    {"name":"spr_duck","order":6,"path":"sprites/spr_duck/spr_duck.yy",},
     {"name":"obj_breakable","order":2,"path":"objects/obj_breakable/obj_breakable.yy",},
   ],
 }

@@ -45,6 +45,7 @@
     {"id":{"name":"obj_ingredient","path":"objects/obj_ingredient/obj_ingredient.yy",},},
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},},
     {"id":{"name":"obj_fryer","path":"objects/obj_fryer/obj_fryer.yy",},},
+    {"id":{"name":"spr_duck","path":"sprites/spr_duck/spr_duck.yy",},},
     {"id":{"name":"obj_breakable","path":"objects/obj_breakable/obj_breakable.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
