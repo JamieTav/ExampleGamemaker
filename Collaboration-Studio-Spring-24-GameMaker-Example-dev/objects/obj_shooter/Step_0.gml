@@ -23,4 +23,12 @@ if (keyboard_check(vk_left))
 		x -= movespeed;
 }
 
+if (place_meeting(x, y, obj_enemy1))
+{
+	health -= 1
+}
 
+if (health == 0)
+{
+	game_end()
+}

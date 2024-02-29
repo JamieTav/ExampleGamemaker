@@ -23,7 +23,7 @@
     {"name":"spr_weapon","order":12,"path":"sprites/spr_weapon/spr_weapon.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"spr_breakable","order":3,"path":"sprites/spr_breakable/spr_breakable.yy",},
-    {"name":"obj_player2","order":6,"path":"objects/obj_player2/obj_player2.yy",},
+    {"name":"obj_shooter","order":6,"path":"objects/obj_shooter/obj_shooter.yy",},
     {"name":"Pikmin","order":8,"path":"sprites/Pikmin/Pikmin.yy",},
     {"name":"obj_bullet","order":10,"path":"objects/obj_bullet/obj_bullet.yy",},
     {"name":"spr_wall","order":2,"path":"sprites/spr_wall/spr_wall.yy",},
