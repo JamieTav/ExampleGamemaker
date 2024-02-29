@@ -35,6 +35,7 @@
     {"name":"obj_toaster","order":5,"path":"objects/obj_toaster/obj_toaster.yy",},
     {"name":"obj_fryer","order":4,"path":"objects/obj_fryer/obj_fryer.yy",},
     {"name":"spr_duck","order":6,"path":"sprites/spr_duck/spr_duck.yy",},
+    {"name":"obj_healthbar","order":11,"path":"objects/obj_healthbar/obj_healthbar.yy",},
     {"name":"obj_weapon","order":9,"path":"objects/obj_weapon/obj_weapon.yy",},
     {"name":"obj_breakable","order":2,"path":"objects/obj_breakable/obj_breakable.yy",},
     {"name":"obj_enemy1","order":7,"path":"objects/obj_enemy1/obj_enemy1.yy",},

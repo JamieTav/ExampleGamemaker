@@ -54,6 +54,7 @@
     {"id":{"name":"obj_toaster","path":"objects/obj_toaster/obj_toaster.yy",},},
     {"id":{"name":"obj_fryer","path":"objects/obj_fryer/obj_fryer.yy",},},
     {"id":{"name":"spr_duck","path":"sprites/spr_duck/spr_duck.yy",},},
+    {"id":{"name":"obj_healthbar","path":"objects/obj_healthbar/obj_healthbar.yy",},},
     {"id":{"name":"Shoot","path":"scripts/Shoot/Shoot.yy",},},
     {"id":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},},
     {"id":{"name":"obj_breakable","path":"objects/obj_breakable/obj_breakable.yy",},},
