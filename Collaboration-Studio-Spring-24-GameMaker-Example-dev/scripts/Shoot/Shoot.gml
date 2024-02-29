@@ -11,7 +11,8 @@ function Shoot()
 		
 		for(var i = 0; i < gun.spread_number; i++;)
 		{
-			var _angle = image.angle + (i * gun.spread_angle) - ((gun.spread_number - 1) * (gun.spread_angle / 2));
+			var _angle = image_angle + (i * gun.spread_angle) - ((gun.spread_number - 1) * (gun.spread_angle / 2));
+
 			
 			instance_create_depth( 
 				x + lengthdir_x(_dist, image_angle),
@@ -20,14 +21,14 @@ function Shoot()
 				obj_bullet,
 				{
 					image_angle: _angle + random_range(-gun.inaccuracy, gun.inaccuracy),
-					sprite_index: gun.ammo[bullet.index].sprite,
+					sprite_index: gun.ammo[bullet_index].sprite,
 					spd: gun.ammo[bullet_index].spd
 				}
 			);
 		}
 		
 		//gun kick and knockback
-		x -= gun.kick * image_yscale
+		x -= gun.kickback * image_yscale
 		
 		//Iterate through ammo types
 		if bullet_index < array_length(gun.ammo) -1 bullet_index++;

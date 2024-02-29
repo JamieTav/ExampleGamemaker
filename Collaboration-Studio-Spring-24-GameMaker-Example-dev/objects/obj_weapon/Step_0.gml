@@ -10,11 +10,11 @@ if mouse_x > x image_yscale = 1;
 else image_yscale = -1;
 
 //lerp angle to mouse and knockback to 0
+mouse_angle = point_direction(x, y, mouse_x, mouse_y);
 
-mouse_angle -= angle_difference(mouse_angle, point_direction(x, y, mouse_x, mouse_y)*0.5);
-knockback_angle -= angle_difference(knockback_angle, 0)*0.05;
+knockback_angle = -mouse_angle;
 
-image_angle = knockback_angle + mouse_angle;
+image_angle = mouse_angle;
 
 // lerp position
 
