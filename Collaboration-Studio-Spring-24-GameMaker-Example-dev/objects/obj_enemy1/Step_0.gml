@@ -4,8 +4,9 @@ var inst = collision_rectangle(0, 0, 2000, 1080, obj_attackable, false, false);
 
 if (inst != noone)
 {
-	move_towards_point(obj_shooter.x, obj_shooter.y, movement_speed)
+	move_towards_point(obj_attackable.x, obj_attackable.y, movement_speed)
 }
+
 
 if (place_meeting(x,y,obj_bullet) && can_take_damage)
 {
@@ -14,9 +15,10 @@ if (place_meeting(x,y,obj_bullet) && can_take_damage)
 	alarm_set(0,10)
 }
 
-if (hp == 0 || place_meeting(x,y,obj_kitchen) || place_meeting(x,y,obj_shooter))
+if (hp == 0 || place_meeting(x,y,obj_kitchen))
 {
 	instance_destroy(id)
 }
+
 
 

@@ -14,7 +14,7 @@ if (place_meeting(x,y,obj_bullet) && can_take_damage)
 	alarm_set(0,10)
 }
 
-if (hp == 0 || place_meeting(x,y,obj_kitchen)|| place_meeting(x,y,obj_shooter))
+if (hp == 0 || place_meeting(x,y,obj_kitchen))
 {
 	instance_destroy(id)
 }
