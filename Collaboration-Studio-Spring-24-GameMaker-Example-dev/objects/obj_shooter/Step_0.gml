@@ -23,7 +23,7 @@ if (keyboard_check(vk_left))
 		x -= movespeed;
 }
 
-if (place_meeting(x, y, obj_enemy1) && can_take_damage)
+if (place_meeting(x, y, obj_enemy_parent) && can_take_damage)
 {
 	show_debug_message("player took damage!");
 	global.shooter_hp -= 1

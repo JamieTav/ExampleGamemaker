@@ -13,7 +13,10 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_attackable",
+    "path": "objects/obj_attackable/obj_attackable.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -30,8 +33,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "Pikmin",
-    "path": "sprites/Pikmin/Pikmin.yy",
+    "name": "spr_shootplayer",
+    "path": "sprites/spr_shootplayer/spr_shootplayer.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,9 +1,9 @@
 // draw the healthbar
 draw_set_color(c_white);
 // draw background
-draw_rectangle(64, 64, 576, 128, false)
+draw_rectangle(64, 64, 576, 30, false)
 
-var hp_g = global.shooter_hp / global.shooter_max_hp
+var hp_g = global.kitchen_hp / global.kitchen_max_hp
 
 // make sure to lock the value, so that it cannot go below zero
 if (hp_g <= 0)
@@ -18,4 +18,4 @@ if (w == 0)
 
 // draw health
 draw_set_color(merge_color(c_red, c_lime,hp_g));
-draw_rectangle(64, 64, w, 128, false)
+draw_rectangle(64, 64, w, 30, false)

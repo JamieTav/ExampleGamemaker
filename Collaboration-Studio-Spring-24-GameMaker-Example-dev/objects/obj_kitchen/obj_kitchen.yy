@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_enemy1",
+  "name": "obj_kitchen",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -14,8 +14,8 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "obj_enemy_parent",
-    "path": "objects/obj_enemy_parent/obj_enemy_parent.yy",
+    "name": "obj_attackable",
+    "path": "objects/obj_attackable/obj_attackable.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -31,10 +31,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "spr_enemy1ph",
-    "path": "sprites/spr_enemy1ph/spr_enemy1ph.yy",
+    "name": "Sprite16",
+    "path": "sprites/Sprite16/Sprite16.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_cook",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-  ],
+  "name": "obj_attackable",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -27,11 +24,8 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
-  "spriteId": {
-    "name": "spr_chefplayer",
-    "path": "sprites/spr_chefplayer/spr_chefplayer.yy",
-  },
+  "solid": false,
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

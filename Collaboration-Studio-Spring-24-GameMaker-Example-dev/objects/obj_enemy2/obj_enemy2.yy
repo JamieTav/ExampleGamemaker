@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_enemy1",
+  "name": "obj_enemy2",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -33,8 +33,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_enemy1ph",
-    "path": "sprites/spr_enemy1ph/spr_enemy1ph.yy",
+    "name": "spr_enemy2ph",
+    "path": "sprites/spr_enemy2ph/spr_enemy2ph.yy",
   },
   "spriteMaskId": null,
   "visible": true,
