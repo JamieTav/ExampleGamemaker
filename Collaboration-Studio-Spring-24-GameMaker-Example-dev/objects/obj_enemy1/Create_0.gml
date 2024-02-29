@@ -1,5 +1,5 @@
 /// variables
 
-health = 3;
+hp = 3;
 
 

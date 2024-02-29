@@ -2,10 +2,10 @@
 
 if (place_meeting(x,y,obj_bullet))
 {
-	health -= 1;	
+	hp -= 1;	
 }
 
-if (health == 0)
+if (hp == 0)
 {
 	instance_destroy(id)
 }

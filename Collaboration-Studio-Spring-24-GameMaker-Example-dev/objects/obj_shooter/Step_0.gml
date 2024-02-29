@@ -23,12 +23,17 @@ if (keyboard_check(vk_left))
 		x -= movespeed;
 }
 
-if (place_meeting(x, y, obj_enemy1))
+if (place_meeting(x, y, obj_enemy1) && can_take_damage)
 {
-	health -= 1
+	show_debug_message("player took damage!");
+	global.shooter_hp -= 1
+	
+	// start the alarm
+	can_take_damage = false;
+	alarm_set(0,60)
 }
 
-if (health == 0)
+if (global.shooter_hp == 0)
 {
-	game_end()
+	instance_destroy(self);
 }
