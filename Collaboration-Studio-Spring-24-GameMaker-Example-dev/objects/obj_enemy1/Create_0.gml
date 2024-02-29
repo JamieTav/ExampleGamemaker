@@ -1,0 +1,5 @@
+/// variables
+
+health = 3;
+
+
