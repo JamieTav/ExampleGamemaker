@@ -1,7 +1,7 @@
 // draw the healthbar
 draw_set_color(c_white);
 // draw background
-draw_rectangle(64, 64, 576, 30, false)
+draw_rectangle(1220, 1220, 1796, 1250, false)
 
 var hp_g = global.kitchen_hp / global.kitchen_max_hp
 
