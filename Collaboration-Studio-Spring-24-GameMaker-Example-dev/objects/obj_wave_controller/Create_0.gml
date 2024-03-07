@@ -43,7 +43,7 @@ function spawn_interval()
 	}
 	
 	//end the wave and start a new one
-	if (current_enemy_count <= 0 && instance_number(obj_enemy1) == 0)
+	if (current_enemy_count <= 0 && instance_number(obj_enemy_parent) <= 0)
 	{
 		//check if its the first wave
 		if (!first_wave)
@@ -62,6 +62,11 @@ function spawn_interval()
 			current_enemy_count = total_enemies;
 			
 		}
+	//if there are enemies left after spawning all enemies, check again
+	if (current_enemy_count <= 0 && instance_number(obj_enemy_parent) > 0)
+	{
+		spawn_interval();
+	}
 
 	}
 	
