@@ -13,10 +13,13 @@ spawn_interval_min = 0.1;
 spawn_interval_max = 1;
 //is it the first wave
 first_wave = false;
+//set current enemies
+current_enemy_count = 6;
 
 //function to spawn enemies
 function spawn_enemy()
 {
+	show_debug_message("spawming enemy")
 	//which enemy is spawning
 	var _e = enemy_object[random_range(0,2)];
 	//pick x & y of spawnpoint
@@ -34,10 +37,29 @@ function spawn_interval()
 	//set alarm to random interval in between spawns
 	if (current_enemy_count > 0)
 	{
+		show_debug_message(current_enemy_count);
 		alarm_set(0, random_range(spawn_interval_min,spawn_interval_max) * 60 );
 	}
+	spawn_enemy();
 	
-	
+	//end the wave and start a new one
+	if (current_enemy_count <= 0)
+	{
+		//check if its the first wave
+		if (!first_wave)
+		{
+			show_debug_message("new wave");
+			alarm_set(1, 30 * 60);
+			total_enemies += 4;
+		}
+		
+		if (first_wave)
+		{
+			show_debug_message("first wave");
+			alarm_set(1, 3);
+		}
+		current_enemy_count = total_enemies;
+	}
 	
 }
 
