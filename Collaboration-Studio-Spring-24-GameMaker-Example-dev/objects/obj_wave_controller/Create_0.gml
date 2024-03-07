@@ -14,7 +14,7 @@ spawn_interval_max = 1;
 //is it the first wave
 first_wave = false;
 //set current enemies
-current_enemy_count = 6;
+current_enemy_count = 0;
 
 //function to spawn enemies
 function spawn_enemy()
@@ -62,5 +62,7 @@ function spawn_interval()
 	}
 	
 }
+
+spawn_interval();
 
 
