@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_trash",
+  "name": "obj_grill",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
@@ -26,10 +26,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "spr_trash",
-    "path": "sprites/spr_trash/spr_trash.yy",
+    "name": "spr_toaster",
+    "path": "sprites/spr_toaster/spr_toaster.yy",
   },
   "spriteMaskId": null,
   "visible": true,

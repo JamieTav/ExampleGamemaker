@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_trash",
+  "name": "obj_deliver_spot",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
@@ -26,10 +26,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "spr_trash",
-    "path": "sprites/spr_trash/spr_trash.yy",
+    "name": "Sprite19",
+    "path": "sprites/Sprite19/Sprite19.yy",
   },
   "spriteMaskId": null,
   "visible": true,

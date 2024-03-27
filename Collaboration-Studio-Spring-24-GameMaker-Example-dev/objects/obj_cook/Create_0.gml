@@ -6,22 +6,28 @@ global.player = self;
 
 holding_ingredients = []
 
-fish_tacos_recipe = ["fish", "tortilla"]
-chicken_tacos_recipe = ["chicken", "tortilla"]
-spicy_chicken_tacos_recipe = ["chicken", "tortilla", "hot sauce"]
-small_fries = ["fries"]
-medium_fries = ["fries", "oil"]
-large_fries = ["fries", "oil", "hot sauce"]
+plain_burger = ["bread", "cooked mean"]
+cheese_burger = ["bread", "cooked meat", "cheese"]
+mega_burger = ["bread", "cooked meat", "lettuce", "tomato"]
+regular_fries = ["cooked fries"]
+cheese_fries = ["cooked fries", "cheese"]
+loaded_fries = ["cooked fries", "cheese", "cooked meat"]
+plain_salad = ["lettuce", "tomato"]
+cheese_salad = ["lettuce", "tomato", "cheese"]
+loaded_salad = ["lettuce", "tomato", "cheese", "cooked meat"]
+plain_icecream = ["cone", "icecream"]
+sprinkles_icecream = ["cone", "icecream", "sprinkles"]
+bs_icecream = ["cone", "icecream", "butterscotch"]
 
-recipes = [fish_tacos_recipe, chicken_tacos_recipe, spicy_chicken_tacos_recipe, large_fries,  medium_fries, small_fries]
+recipes = [plain_burger, cheese_burger, mega_burger, regular_fries, cheese_fries, loaded_fries, plain_salad, cheese_salad, loaded_salad, plain_icecream, sprinkles_icecream, bs_icecream]
 
-recipe_names = ["fish tacos", "chicken tacos", "spicy chicken tacos", "large fries", "medium fries", "small fries"]
+recipe_names = ["hamburger", "cheeseburger", "mega burger", "plain fries", "cheese fries", "loaded fries", "plain salad", "cheese salad", "loaded salad", "icecream", "sprinkles icecream", "butterscotch icecream"]
 
 // the amount of recipes we have
-recipe_count = 6;
+recipe_count = 12;
 
 // cooking function
-function attempt_cooking()
+function attempt_recipe()
 {
 	// compares our held ingredients to all recipes
 	// show_debug_message("attempting cooking");
@@ -75,6 +81,27 @@ function attempt_cooking()
 	show_debug_message("nothing was made!");
 	clear_held_ingredients()
 }
+
+function attempt_frying()
+{
+	if (array_contains(holding_ingredients, "frozen fries"))
+		{
+			//array_delete(holding_ingredients, "frozen fries",)
+			array_insert(holding_ingredients, "cooked fries")
+		}
+			
+}
+
+function attempt_cooking()
+{
+	if (array_contains(holding_ingredients, "frozen meat"))
+		{
+			//array_delete(holding_ingredients, "frozen meat",)
+			array_insert(holding_ingredients, "cooked meat")
+		}
+			
+}
+	
 
 function clear_held_ingredients()
 {
