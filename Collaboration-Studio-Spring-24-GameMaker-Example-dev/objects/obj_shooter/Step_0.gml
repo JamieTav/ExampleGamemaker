@@ -37,3 +37,7 @@ if (global.shooter_hp == 0)
 {
 	instance_destroy(self);
 }
+
+// set global position for reference
+global.shooter_position_x = x;
+global.shooter_position_y = y;
