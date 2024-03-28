@@ -45,7 +45,7 @@
     {"name":"obj_ingredient","order":3,"path":"objects/obj_ingredient/obj_ingredient.yy",},
     {"name":"obj_deliver_spot","order":23,"path":"objects/obj_deliver_spot/obj_deliver_spot.yy",},
     {"name":"obj_kitchen_healthbar","order":13,"path":"objects/obj_kitchen_healthbar/obj_kitchen_healthbar.yy",},
-    {"name":"Sprite19","order":15,"path":"sprites/Sprite19/Sprite19.yy",},
+    {"name":"Sprite19","order":18,"path":"sprites/Sprite19/Sprite19.yy",},
     {"name":"spr_trash","order":11,"path":"sprites/spr_trash/spr_trash.yy",},
     {"name":"obj_toaster","order":5,"path":"objects/obj_toaster/obj_toaster.yy",},
     {"name":"obj_enemy2","order":15,"path":"objects/obj_enemy2/obj_enemy2.yy",},
