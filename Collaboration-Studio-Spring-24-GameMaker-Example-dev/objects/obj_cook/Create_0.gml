@@ -88,6 +88,7 @@ function attempt_frying()
 		{
 			//array_delete(holding_ingredients, "frozen fries",)
 			array_insert(holding_ingredients, "cooked fries")
+			draw_text(1538, 350, "fries cooked!")
 		}
 			
 }
@@ -98,6 +99,7 @@ function attempt_cooking()
 		{
 			//array_delete(holding_ingredients, "frozen meat",)
 			array_insert(holding_ingredients, "cooked meat")
+			draw_text(1538, 350, "meat cooked!")
 		}
 			
 }

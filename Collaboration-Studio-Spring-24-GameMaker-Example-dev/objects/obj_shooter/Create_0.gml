@@ -5,3 +5,5 @@ global.shooter_max_hp = 10
 
 can_take_damage = true;
 
+
+
