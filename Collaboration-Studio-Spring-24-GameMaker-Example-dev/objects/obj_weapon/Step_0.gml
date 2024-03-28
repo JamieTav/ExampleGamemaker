@@ -1,5 +1,9 @@
 /// movement and shooting
 
+// set this position to the shooter
+x = global.shooter_position_x; 
+y = global.shooter_position_y;
+
 #region reset angle and position
 
 sprite_index = spr_weapon
