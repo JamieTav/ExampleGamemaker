@@ -1,5 +1,5 @@
 // if we contact the player, add our ingredient to their holding
-if (place_meeting(x,y,obj_player) && keyboard_check_pressed(vk_space))
+if (place_meeting(x,y,obj_cook) && keyboard_check_pressed(vk_space))
 {
 	var i = array_length(global.player.holding_ingredients)
 	global.player.holding_ingredients[i] = ingredient_string;
