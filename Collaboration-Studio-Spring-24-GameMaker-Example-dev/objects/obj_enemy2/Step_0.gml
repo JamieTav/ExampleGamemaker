@@ -48,6 +48,4 @@ if (hp == 0 || place_meeting(x,y,obj_kitchen))
 	instance_destroy(id)
 }
 
-show_debug_message(knockback_force_x);
-show_debug_message(knockback_force_y);
 

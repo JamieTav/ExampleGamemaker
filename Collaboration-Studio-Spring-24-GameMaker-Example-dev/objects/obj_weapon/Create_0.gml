@@ -61,5 +61,5 @@ canshoot = 0;
 //current bullet
 bullet_index = 0;
 //current ammo ammount
-current_ammo = 100;
+current_ammo = 10;
 has_ammo = true;
