@@ -17,6 +17,8 @@ if (place_meeting(x,y, obj_enemy1))
 	// find the closest enemy and knock them back
 	instance_nearest(x,y,obj_enemy1).take_knockback(x,y, 1);
 	
+	instance_nearest(x,y,obj_enemy1).take_damage(dmg);
+	
 	instance_destroy()
 }
 
@@ -24,6 +26,8 @@ if (place_meeting(x,y, obj_enemy2))
 {
 	// find the closest enemy and knock them back
 	instance_nearest(x,y,obj_enemy2).take_knockback(x,y, 1);
+	
+	instance_nearest(x,y,obj_enemy2).take_damage(dmg);
 	
 	instance_destroy()
 }

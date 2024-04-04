@@ -16,7 +16,10 @@ function take_knockback(_in_x, _in_y, _multiplier)
 	
 }
 
-
+function take_damage(_dmg)
+{
+	hp -= _dmg;
+}
 
 
 
