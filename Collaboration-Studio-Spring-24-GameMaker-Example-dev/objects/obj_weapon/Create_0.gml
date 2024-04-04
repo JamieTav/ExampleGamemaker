@@ -41,7 +41,7 @@ gun =
 	//kickback to position and angle
 	kickback: 2,
 	//shooting sound effect to plan
-	//sound: *insert sound and uncomment*,
+	sound: snd_shoot,
 	//number of bullets in spread
 	spread_number: 1,
 	//angle between each bullet in spread
@@ -58,3 +58,6 @@ gun =
 canshoot = 0;
 //current bullet
 bullet_index = 0;
+//current ammo ammount
+current_ammo = 5;
+has_ammo = true;

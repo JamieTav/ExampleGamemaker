@@ -72,6 +72,9 @@ function attempt_recipe()
 			show_debug_message("cooked: " + recipe_names[i]);
 			// put cooking function here!
 			
+			//create ammo
+			instance_create_layer(x,y, "Instances", obj_ammo_ph)
+			
 			clear_held_ingredients()
 			return;
 		}

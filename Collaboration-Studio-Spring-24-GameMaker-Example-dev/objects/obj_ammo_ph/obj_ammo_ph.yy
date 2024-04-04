@@ -1,10 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_trash",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-  ],
+  "name": "obj_ammo_ph",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -12,7 +10,7 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": null,
-  "persistent": false,
+  "persistent": true,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,
@@ -26,10 +24,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "spr_trash",
-    "path": "sprites/spr_trash/spr_trash.yy",
+    "name": "spr_burger",
+    "path": "sprites/spr_burger/spr_burger.yy",
   },
   "spriteMaskId": null,
   "visible": true,
