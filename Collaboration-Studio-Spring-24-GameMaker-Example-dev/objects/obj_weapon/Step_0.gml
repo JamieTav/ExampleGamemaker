@@ -57,6 +57,9 @@ if (current_ammo > 0 && has_ammo)
 			call_later(_delay, time_source_units_frames, Shoot);
 			_delay += gun.burst_delay;
 		}
+		
+		if (current_ammo >= 1)
+			current_ammo -= 1;
 	}
 }
 
@@ -68,11 +71,6 @@ if !mouse_check_button(mb_left)
 		_ammo.rate_mult);
 }
 
-//decrease ammo
-if mouse_check_button_pressed(mb_left)
-{
-	current_ammo -= 1;
-}
 if (current_ammo == 0)
 {
 	has_ammo = false;
@@ -84,6 +82,8 @@ if (place_meeting(obj_shooter.x, obj_shooter.y, obj_ammo_ph))
 	instance_destroy(obj_ammo_ph);
 	current_ammo += 2;
 	has_ammo = true;
+	show_debug_message(current_ammo);
+	show_debug_message(has_ammo);
 }
 
 

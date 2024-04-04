@@ -22,7 +22,9 @@ function Shoot()
 				{
 					image_angle: _angle + random_range(-gun.inaccuracy, gun.inaccuracy),
 					sprite_index: gun.ammo[bullet_index].sprite,
-					spd: gun.ammo[bullet_index].spd
+					mask_index: gun.ammo[bullet_index].sprite,
+					spd: gun.ammo[bullet_index].spd,
+					dmg: gun.ammo[bullet_index].dmg
 				}
 			);
 		}

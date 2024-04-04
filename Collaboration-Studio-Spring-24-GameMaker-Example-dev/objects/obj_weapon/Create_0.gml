@@ -26,7 +26,9 @@ bullet =
 	//multiplication in firerate per bullet
 	rate_mult: 0,
 	//current firerate
-	firerate: 20
+	firerate: 20,
+	//bullet damage
+	dmg: 1
 };
 
 //gun
@@ -59,5 +61,5 @@ canshoot = 0;
 //current bullet
 bullet_index = 0;
 //current ammo ammount
-current_ammo = 5;
+current_ammo = 10;
 has_ammo = true;
