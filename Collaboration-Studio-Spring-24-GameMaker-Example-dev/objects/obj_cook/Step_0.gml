@@ -28,3 +28,8 @@ if (place_meeting(x,y,obj_breakable))
 {
 	instance_destroy(instance_place(x,y,obj_breakable))
 }
+
+if (place_meeting(x,y,obj_ingredient) && keyboard_check_pressed(vk_space))
+{
+	instance_create_layer(x,y, "Instances", obj_cheesepile)
+}

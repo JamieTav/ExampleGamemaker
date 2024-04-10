@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_breakable",
-    "path":"sprites/spr_breakable/spr_breakable.yy",
+    "name":"spr_dropoff",
+    "path":"sprites/spr_dropoff/spr_dropoff.yy",
   },
   "spriteMaskId":null,
   "visible":true,

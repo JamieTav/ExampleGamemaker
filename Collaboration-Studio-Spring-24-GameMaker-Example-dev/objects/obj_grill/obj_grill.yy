@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_toaster",
-    "path":"sprites/spr_toaster/spr_toaster.yy",
+    "name":"spr_grill",
+    "path":"sprites/spr_grill/spr_grill.yy",
   },
   "spriteMaskId":null,
   "visible":true,
