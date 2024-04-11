@@ -31,5 +31,5 @@ if (place_meeting(x,y,obj_breakable))
 
 if (place_meeting(x,y,obj_ingredient) && keyboard_check_pressed(vk_space))
 {
-	instance_create_layer(x,y, "Instances", obj_cheesepile)
+	instance_create_layer(716,y, "Instances_1", obj_cheesepile)
 }

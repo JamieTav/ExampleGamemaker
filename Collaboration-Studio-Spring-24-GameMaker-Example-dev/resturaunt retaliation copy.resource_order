@@ -24,6 +24,7 @@
     {"name":"obj_button_help","order":20,"path":"objects/obj_button_help/obj_button_help.yy",},
     {"name":"obj_button_parent","order":18,"path":"objects/obj_button_parent/obj_button_parent.yy",},
     {"name":"obj_button_quit","order":21,"path":"objects/obj_button_quit/obj_button_quit.yy",},
+    {"name":"obj_cheesepile","order":26,"path":"objects/obj_cheesepile/obj_cheesepile.yy",},
     {"name":"obj_controls","order":22,"path":"objects/obj_controls/obj_controls.yy",},
     {"name":"obj_deliver_spot","order":23,"path":"objects/obj_deliver_spot/obj_deliver_spot.yy",},
     {"name":"obj_enemy_parent","order":16,"path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},
@@ -41,7 +42,6 @@
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"obj_wave_controller","order":17,"path":"objects/obj_wave_controller/obj_wave_controller.yy",},
     {"name":"obj_weapon","order":9,"path":"objects/obj_weapon/obj_weapon.yy",},
-    {"name":"obj_cheesepile","order":26,"path":"objects/obj_cheesepile/obj_cheesepile.yy",},
     {"name":"rm_help","order":2,"path":"rooms/rm_help/rm_help.yy",},
     {"name":"rm_mainMenu","order":1,"path":"rooms/rm_mainMenu/rm_mainMenu.yy",},
     {"name":"Pikmin","order":8,"path":"sprites/Pikmin/Pikmin.yy",},
@@ -71,5 +71,6 @@
     {"name":"spr_wall","order":2,"path":"sprites/spr_wall/spr_wall.yy",},
     {"name":"spr_weapon","order":12,"path":"sprites/spr_weapon/spr_weapon.yy",},
     {"name":"Sprite16","order":15,"path":"sprites/Sprite16/Sprite16.yy",},
+    {"name":"spr_counter_end","order":28,"path":"sprites/spr_counter_end/spr_counter_end.yy",},
   ],
 }

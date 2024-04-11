@@ -4,8 +4,8 @@ total_enemies = 6;
 //enemies available to select
 enemy_object = [obj_enemy1, obj_enemy2];
 //spawn area range
-bounds_tlx = -455;
-bounds_tx = 0;
+bounds_tlx = 2000;
+bounds_tx = 2400;
 bounds_try = 0;
 bounds_by = 1080;
 //time between enemy spawns
