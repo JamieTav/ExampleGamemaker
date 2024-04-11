@@ -28,7 +28,7 @@ recipe_count = 12;
 
 // cooking function
 function attempt_recipe()
-{
+{	
 	// compares our held ingredients to all recipes
 	// show_debug_message("attempting cooking");
 	// for ever recipe, compare our held ingredients to that recipe
@@ -40,6 +40,7 @@ function attempt_recipe()
 		// sort both arrays so that they can be compared
 		array_sort(recipes[i], true)
 		
+		// sort our held ingredients
 		array_sort(holding_ingredients, true)
 		
 		length = array_length(holding_ingredients)
@@ -90,8 +91,10 @@ function attempt_frying()
 	if (array_contains(holding_ingredients, "frozen fries"))
 		{
 			//array_delete(holding_ingredients, "frozen fries",)
-			array_insert(holding_ingredients, "cooked fries")
+			array_insert(holding_ingredients, 0, "cooked fries")
 			draw_text(1538, 350, "fries cooked!")
+			
+			show_debug_message("done");
 		}
 			
 }
@@ -101,7 +104,7 @@ function attempt_cooking()
 	if (array_contains(holding_ingredients, "frozen meat"))
 		{
 			//array_delete(holding_ingredients, "frozen meat",)
-			array_insert(holding_ingredients, "cooked meat")
+			array_insert(holding_ingredients, 0, "cooked meat")
 			draw_text(1538, 350, "meat cooked!")
 		}
 			
