@@ -75,7 +75,7 @@ function attempt_recipe()
 			// put cooking function here!
 			
 			//create ammo
-			instance_create_layer(x,y, "Instances", obj_ammo_ph)
+			instance_create_layer(780,y, "Instances_1", obj_ammo_ph)
 			
 			clear_held_ingredients()
 			return;

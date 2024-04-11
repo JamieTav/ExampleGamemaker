@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_shootplayer",
-    "path":"sprites/spr_shootplayer/spr_shootplayer.yy",
+    "name":"spr_milo",
+    "path":"sprites/spr_milo/spr_milo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

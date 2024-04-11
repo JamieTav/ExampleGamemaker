@@ -11,4 +11,8 @@ if (place_meeting(x,y,obj_cook) && keyboard_check_pressed(vk_space))
 		show_debug_message(global.player.holding_ingredients[j])
 	}
 	
+	if (ingredient_string = "fries")
+		{
+			instance_create_layer(x, y, "Instance_1", obj_ing_fries_frozen)
+		}
 }

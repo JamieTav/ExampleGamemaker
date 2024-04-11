@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_chefplayer",
-    "path":"sprites/spr_chefplayer/spr_chefplayer.yy",
+    "name":"spr_auburn",
+    "path":"sprites/spr_auburn/spr_auburn.yy",
   },
   "spriteMaskId":null,
   "visible":true,

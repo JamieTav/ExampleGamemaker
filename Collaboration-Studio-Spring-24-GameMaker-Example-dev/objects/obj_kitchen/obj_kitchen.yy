@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite16",
-    "path":"sprites/Sprite16/Sprite16.yy",
+    "name":"spr_kitchen_boarder",
+    "path":"sprites/spr_kitchen_boarder/spr_kitchen_boarder.yy",
   },
   "spriteMaskId":null,
   "visible":true,
