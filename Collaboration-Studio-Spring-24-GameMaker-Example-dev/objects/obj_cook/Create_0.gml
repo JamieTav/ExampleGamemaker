@@ -5,6 +5,7 @@ movespeed = 5
 global.player = self;
 
 holding_ingredients = []
+holding_objects = []
 
 plain_burger = ["bread", "cooked mean"]
 cheese_burger = ["bread", "cooked meat", "cheese"]
@@ -113,6 +114,12 @@ function attempt_cooking()
 
 function clear_held_ingredients()
 {
+	// destroy all the objects in the held ingredients list\
+	for (i = 0; i < array_length(holding_objects); i++)
+	{
+		instance_destroy(holding_objects[i]);
+	}
+	
 	// then clear held ingredients
 	holding_ingredients = [];
 }
