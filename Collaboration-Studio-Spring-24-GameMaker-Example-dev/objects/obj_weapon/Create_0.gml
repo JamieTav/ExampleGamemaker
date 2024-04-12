@@ -1,5 +1,7 @@
 // variables
 
+//does the shooter even exist lmao?
+shooter_alive = true;
 //direction from gun to mouse
 mouse_angle = 0;
 

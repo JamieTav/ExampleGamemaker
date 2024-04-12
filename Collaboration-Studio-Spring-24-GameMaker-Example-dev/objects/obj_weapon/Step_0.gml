@@ -1,8 +1,15 @@
 /// movement and shooting
 
 // set this position to the shooter
-x = global.shooter_position_x; 
-y = global.shooter_position_y;
+if (instance_exists(obj_shooter))
+{
+	x = global.shooter_position_x; 
+	y = global.shooter_position_y;
+}
+else
+{
+	instance_destroy(self);
+}
 
 #region reset angle and position
 
@@ -77,7 +84,7 @@ if (current_ammo == 0)
 }
 
 //pick up ammo
-if (place_meeting(obj_shooter.x, obj_shooter.y, obj_ammo_ph))
+if (instance_exists(obj_shooter) && place_meeting(obj_shooter.x, obj_shooter.y, obj_ammo_ph))
 {
 	instance_destroy(obj_ammo_ph);
 	current_ammo += 2;
@@ -85,8 +92,5 @@ if (place_meeting(obj_shooter.x, obj_shooter.y, obj_ammo_ph))
 	show_debug_message(current_ammo);
 	show_debug_message(has_ammo);
 }
-
-
-
 
 

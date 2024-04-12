@@ -16,9 +16,9 @@ loaded_fries = ["cooked fries", "cheese", "cooked meat"]
 plain_salad = ["lettuce", "tomato"]
 cheese_salad = ["lettuce", "tomato", "cheese"]
 loaded_salad = ["lettuce", "tomato", "cheese", "cooked meat"]
-plain_icecream = ["cone", "icecream"]
-sprinkles_icecream = ["cone", "icecream", "sprinkles"]
-bs_icecream = ["cone", "icecream", "butterscotch"]
+plain_icecream = ["icecream"]
+sprinkles_icecream = [ "icecream", "sprinkles"]
+bs_icecream = [ "icecream", "butterscotch"]
 
 recipes = [plain_burger, cheese_burger, mega_burger, regular_fries, cheese_fries, loaded_fries, plain_salad, cheese_salad, loaded_salad, plain_icecream, sprinkles_icecream, bs_icecream]
 
