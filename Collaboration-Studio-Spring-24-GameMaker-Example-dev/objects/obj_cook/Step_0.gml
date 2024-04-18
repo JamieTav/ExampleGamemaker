@@ -29,8 +29,40 @@ if (place_meeting(x,y,obj_breakable))
 	instance_destroy(instance_place(x,y,obj_breakable))
 }
 
-if (place_meeting(x,y,obj_ingredient) && keyboard_check_pressed(vk_space))
+//pick up items
+if (place_meeting(x,y,inst_21A8E7B6) && keyboard_check_pressed(vk_space))
 {
-	//if (
+	array_insert(holding_objects, array_length(holding_objects),instance_create_layer(x,y, "Instances", obj_ing_fries_frozen));
+}
+if (place_meeting(x,y,inst_42B61DDE) && keyboard_check_pressed(vk_space))
+{
 	array_insert(holding_objects, array_length(holding_objects),instance_create_layer(x,y, "Instances", obj_ing_cheese));
+}
+if (place_meeting(x,y,inst_68B9B507) && keyboard_check_pressed(vk_space))
+{
+	array_insert(holding_objects, array_length(holding_objects),instance_create_layer(x,y, "Instances", obj_ing_bread));
+}
+if (place_meeting(x,y,inst_5BD3EA56) && keyboard_check_pressed(vk_space))
+{
+	array_insert(holding_objects, array_length(holding_objects),instance_create_layer(x,y, "Instances", obj_ing_tomato));
+}
+if (place_meeting(x,y,inst_2E9CA95F) && keyboard_check_pressed(vk_space))
+{
+	array_insert(holding_objects, array_length(holding_objects),instance_create_layer(x,y, "Instances", obj_ing_lettuce));
+}
+if (place_meeting(x,y,inst_7B747F44) && keyboard_check_pressed(vk_space))
+{
+	array_insert(holding_objects, array_length(holding_objects),instance_create_layer(x,y, "Instances", obj_ing_frozen_meat));
+}
+if (place_meeting(x,y,inst_9057E36) && keyboard_check_pressed(vk_space))
+{
+	array_insert(holding_objects, array_length(holding_objects),instance_create_layer(x,y, "Instances", obj_ing_ic));
+}
+if (place_meeting(x,y,inst_50657285) && keyboard_check_pressed(vk_space))
+{
+	array_insert(holding_objects, array_length(holding_objects),instance_create_layer(x,y, "Instances", obj_ing_sprinkles));
+}
+if (place_meeting(x,y,inst_5745C0E4) && keyboard_check_pressed(vk_space))
+{
+	array_insert(holding_objects, array_length(holding_objects),instance_create_layer(x,y, "Instances", obj_ing_bscotch));
 }

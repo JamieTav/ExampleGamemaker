@@ -93,8 +93,9 @@ function attempt_frying()
 		{
 			//array_delete(holding_ingredients, "frozen fries",)
 			array_insert(holding_ingredients, 0, "cooked fries")
+			audio_play_sound(snd_fry, 1, false)
 			draw_text(1538, 350, "fries cooked!")
-			
+			alarm_set(0,60)
 			show_debug_message("done");
 		}
 			
@@ -102,11 +103,13 @@ function attempt_frying()
 
 function attempt_cooking()
 {
-	if (array_contains(holding_ingredients, "frozen meat"))
+	if (array_contains(holding_ingredients, "raw meat"))
 		{
 			//array_delete(holding_ingredients, "frozen meat",)
 			array_insert(holding_ingredients, 0, "cooked meat")
+			audio_play_sound(snd_fry, 1, false)
 			draw_text(1538, 350, "meat cooked!")
+			alarm_set(0,60)
 		}
 			
 }

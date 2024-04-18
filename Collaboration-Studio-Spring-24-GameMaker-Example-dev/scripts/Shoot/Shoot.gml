@@ -27,6 +27,7 @@ function Shoot()
 					dmg: gun.ammo[bullet_index].dmg
 				}
 			);
+			audio_play_sound(snd_shoot, 1, false)
 		}
 		
 		//gun kick and knockback
