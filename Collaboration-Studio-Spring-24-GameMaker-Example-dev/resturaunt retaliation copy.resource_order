@@ -97,7 +97,7 @@
     {"name":"spr_loaded_fries","order":9,"path":"sprites/spr_loaded_fries/spr_loaded_fries.yy",},
     {"name":"spr_meat_frozen","order":10,"path":"sprites/spr_meat_frozen/spr_meat_frozen.yy",},
     {"name":"spr_megaburger","order":2,"path":"sprites/spr_megaburger/spr_megaburger.yy",},
-    {"name":"spr_menuButton","order":17,"path":"sprites/spr_menuButton/spr_menuButton.yy",},
+    {"name":"spr_menuButton","order":18,"path":"sprites/spr_menuButton/spr_menuButton.yy",},
     {"name":"spr_player","order":6,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"spr_salad_cheese_meat","order":12,"path":"sprites/spr_salad_cheese_meat/spr_salad_cheese_meat.yy",},
     {"name":"spr_salad_cheese","order":11,"path":"sprites/spr_salad_cheese/spr_salad_cheese.yy",},

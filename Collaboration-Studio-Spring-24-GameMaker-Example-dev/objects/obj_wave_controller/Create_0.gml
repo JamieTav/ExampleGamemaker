@@ -3,6 +3,8 @@
 total_enemies = 6;
 //enemies available to select
 enemy_object = [obj_enemy1, obj_enemy2];
+//check if enemies are alive
+enemies_alive = false;
 //spawn area range
 bounds_tlx = 2000;
 bounds_tx = 2400;
@@ -49,7 +51,7 @@ function spawn_interval()
 		if (!first_wave)
 		{
 			show_debug_message("new wave");
-			alarm_set(1, 60 * 60);
+			alarm_set(0, 60 * 60);
 			total_enemies += 4;
 			current_enemy_count = total_enemies;
 		}
