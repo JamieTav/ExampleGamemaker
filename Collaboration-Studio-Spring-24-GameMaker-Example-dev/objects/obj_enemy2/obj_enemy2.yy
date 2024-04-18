@@ -10,8 +10,8 @@
   "name":"obj_enemy2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"characters",
+    "path":"folders/Objects/characters.yy",
   },
   "parentObjectId":{
     "name":"obj_enemy_parent",

@@ -10,8 +10,8 @@
   "name":"obj_kitchen",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"enviornment",
+    "path":"folders/Objects/enviornment.yy",
   },
   "parentObjectId":{
     "name":"obj_attackable",

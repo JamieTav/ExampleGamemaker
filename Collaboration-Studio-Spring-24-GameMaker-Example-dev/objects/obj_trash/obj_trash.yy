@@ -8,8 +8,8 @@
   "name":"obj_trash",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"enviornment",
+    "path":"folders/Objects/enviornment.yy",
   },
   "parentObjectId":null,
   "persistent":false,

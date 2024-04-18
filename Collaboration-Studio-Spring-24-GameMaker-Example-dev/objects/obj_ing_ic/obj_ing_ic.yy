@@ -8,8 +8,8 @@
   "name":"obj_ing_ic",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"obj_ing",
+    "path":"folders/Objects/obj_ing.yy",
   },
   "parentObjectId":null,
   "persistent":false,
