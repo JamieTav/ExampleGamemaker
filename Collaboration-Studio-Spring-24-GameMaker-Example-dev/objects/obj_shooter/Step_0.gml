@@ -38,6 +38,7 @@ if (global.shooter_hp == 0)
 	instance_destroy(self);
 }
 
+if keyboard_check_pressed(ord("R")) game_restart();
 
 // set global position for reference
 global.shooter_position_x = x;
